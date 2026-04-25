@@ -1,0 +1,34 @@
+{
+  "posts": [
+    {
+      "id": "1",
+      "title": "Geleceğin Teknolojileri: Yapay Zeka",
+      "excerpt": "Yapay zeka dünyayı nasıl değiştiriyor? İşte bilmeniz gerekenler...",
+      "content": "<p>Yapay zeka, son yılların en çok konuşulan konularından biri haline geldi. Bu yazımızda yapay zekanın tarihçesinden günümüzdeki uygulamalarına kadar pek çok konuyu ele alacağız...</p><p>Detaylı analizler ve daha fazı için blogumuzu takip etmeye devam edin.</p>",
+      "date": "24 Nisan 2026",
+      "author": "HSD Hitit",
+      "image": "/hsd-logo.png",
+      "link": "https://medium.com"
+    },
+    {
+      "id": "2",
+      "title": "Huawei HarmonyOS Geliştirme",
+      "excerpt": "HarmonyOS ile uygulama geliştirmeye başlamak için adım adım rehber.",
+      "content": "<p>HarmonyOS, Huawei tarafından geliştirilen ve tüm cihazları birbirine bağlamayı hedefleyen bir işletim sistemidir. Bu ekosistemde yer almak için...</p>",
+      "date": "20 Nisan 2026",
+      "author": "Teknik Ekip",
+      "image": "/hsd-logo.png",
+      "link": "https://medium.com"
+    },
+    {
+      "id": "3",
+      "title": "Web 3.0 ve Merkeziyetsizlik",
+      "excerpt": "İnternetin yeni nesli Web 3.0 nedir? Blockchain bu işin neresinde?",
+      "content": "<p>Web 3.0, internetin geleceği olarak görülüyor. Merkeziyetsiz yapılar ve akıllı sözleşmeler sayesinde...</p>",
+      "date": "15 Nisan 2026",
+      "author": "HSD Hitit",
+      "image": "/hsd-logo.png",
+      "link": "https://medium.com"
+    }
+  ]
+}

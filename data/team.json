@@ -1,0 +1,30 @@
+[
+  {
+    "name": "İsim",
+    "surname": "Soyisim",
+    "rank": "Lider",
+    "department": "Yönetim",
+    "image": "/hsd-logo.png"
+  },
+  {
+    "name": "İsim",
+    "surname": "Soyisim",
+    "rank": "Departman",
+    "department": "Teknik",
+    "image": "/hsd-logo.png"
+  },
+  {
+    "name": "İsim",
+    "surname": "Soyisim",
+    "rank": "Üye",
+    "department": "Tasarım",
+    "image": "/hsd-logo.png"
+  },
+  {
+    "name": "İsim",
+    "surname": "Soyisim",
+    "rank": "Üye",
+    "department": "Sosyal Medya",
+    "image": "/hsd-logo.png"
+  }
+]
