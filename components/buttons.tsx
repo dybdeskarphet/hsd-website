@@ -28,5 +28,3 @@ export const SocialButton = ({ Icon, href, ariaLabel }: SocialButtonProps) => {
     </Link>
   );
 };
-
-export default { SocialButton };
