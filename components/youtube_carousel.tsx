@@ -10,11 +10,11 @@ export const VideoSection = async () => {
     const videoId = video.snippet.resourceId.videoId;
 
     return (
-      <div className="w-[260px] sm:w-[300px] md:w-[400px] group">
+      <div key={videoId} className="w-[260px] sm:w-[300px] md:w-[400px] group">
         <div className="relative p-1.5 md:p-2 bg-[#2a2a2a] border-2 border-black shadow-[4px_4px_0_0_#000] md:shadow-[6px_6px_0_0_#000]">
           <div className="overflow-hidden bg-black aspect-video border-2 border-black relative">
             <YouTubeEmbed
-              videoId={videoId}
+              videoid={videoId}
               params="rel=0"
               width={400}
               height={225}
