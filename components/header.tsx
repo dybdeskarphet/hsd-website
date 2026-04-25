@@ -14,20 +14,19 @@ import {
 } from "react-icons/fa";
 
 export const Header = () => {
-  /* Theme toggle logic */
   const [theme, setTheme] = useState<"light" | "dark">("dark");
 
   useEffect(() => {
     const savedTheme = localStorage.getItem("theme") as "light" | "dark" | null;
-    if (savedTheme === "light") {
-      setTheme("light");
-      document.documentElement.classList.remove("dark");
-    } else {
-      // Default or explicitly dark
-      setTheme("dark");
-      document.documentElement.classList.add("dark");
+    const initialTheme = savedTheme || "dark";
+    if (initialTheme !== theme) {
+      setTimeout(() => setTheme(initialTheme), 0);
     }
-  }, []);
+  }, [theme]);
+
+  useEffect(() => {
+    document.documentElement.classList.toggle("dark", theme === "dark");
+  }, [theme]);
 
   const toggleTheme = () => {
     const newTheme = theme === "dark" ? "light" : "dark";
